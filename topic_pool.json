@@ -1,0 +1,198 @@
+{
+    "meta": {
+        "version": "1.0",
+        "description": "Topic pool for typing story generation",
+        "defaultLanguage": [
+            "en",
+            "de"
+        ]
+    },
+    "categories": [
+        {
+            "name": "core_domains",
+            "topics": [
+                "Computer History",
+                "Programming Languages",
+                "Operating Systems",
+                "Internet History",
+                "Artificial Intelligence",
+                "Hardware History",
+                "Software Development",
+                "Digital Revolution"
+            ]
+        },
+        {
+            "name": "people_and_culture",
+            "topics": [
+                "Technology Pioneers",
+                "Female Pioneers in Tech",
+                "Historical Figures",
+                "Hacker Culture",
+                "Forgotten Inventors",
+                "Underrated Contributors",
+                "Diversity in Tech",
+                "Immigrant Innovators",
+                "Self-Taught Programmers"
+            ]
+        },
+        {
+            "name": "regional_history",
+            "topics": [
+                "German Computing History",
+                "European Tech History",
+                "Silicon Valley History"
+            ]
+        },
+        {
+            "name": "eras_and_events",
+            "topics": [
+                "Early Computing",
+                "Mainframe Era",
+                "Personal Computer Revolution",
+                "Cold War Technology",
+                "Space Race Computing",
+                "Dot-Com Boom"
+            ]
+        },
+        {
+            "name": "infrastructure_and_networks",
+            "topics": [
+                "Networking Pioneers",
+                "Networking Protocols",
+                "TCP/IP History",
+                "World Wide Web",
+                "Browser Development",
+                "Search Engine History",
+                "Internet Standards",
+                "Protocol Development",
+                "Telecommunications",
+                "Radio and Wireless History"
+            ]
+        },
+        {
+            "name": "security_and_cryptography",
+            "topics": [
+                "Cybersecurity History",
+                "First Hacks",
+                "Password Security",
+                "Encryption Stories",
+                "Cryptography History"
+            ]
+        },
+        {
+            "name": "hardware_and_systems",
+            "topics": [
+                "Semiconductor History",
+                "Microprocessor Development",
+                "Storage Evolution",
+                "Memory Innovations",
+                "Display Technology"
+            ]
+        },
+        {
+            "name": "software_and_programming",
+            "topics": [
+                "Programming Paradigms",
+                "Software Engineering Legends",
+                "Debugging Stories",
+                "Algorithm Discovery",
+                "Compiler Design",
+                "Operating System Design",
+                "Assembly Language",
+                "C Programming Language"
+            ]
+        },
+        {
+            "name": "interfaces_and_interaction",
+            "topics": [
+                "Human-Computer Interaction",
+                "User Interface History",
+                "Command Line Origins",
+                "Graphical User Interface",
+                "Mouse Invention",
+                "Keyboard Design"
+            ]
+        },
+        {
+            "name": "modern_dev_practices",
+            "topics": [
+                "Web Development History",
+                "Database History",
+                "Cloud Computing Roots",
+                "Virtualization History",
+                "Container Technology",
+                "DevOps Origins",
+                "Agile Methodologies",
+                "Software Craftsmanship"
+            ]
+        },
+        {
+            "name": "business_and_industry",
+            "topics": [
+                "Tech Company Origins",
+                "Startup Culture",
+                "Corporate Tech History",
+                "Antitrust and Tech"
+            ]
+        },
+        {
+            "name": "open_source_and_philosophy",
+            "topics": [
+                "Open Source Movement",
+                "Open Source Licensing",
+                "Free Software Philosophy",
+                "Collaboration Models"
+            ]
+        },
+        {
+            "name": "media_and_society",
+            "topics": [
+                "Social Media Origins",
+                "Video Game History",
+                "Tech Anthropology"
+            ]
+        },
+        {
+            "name": "scientific_and_academic",
+            "topics": [
+                "Mathematical Computing",
+                "Scientific Computing",
+                "University Research Labs"
+            ]
+        },
+        {
+            "name": "story_types",
+            "topics": [
+                "Invention Stories",
+                "Fact-Based Narratives",
+                "Educational Content",
+                "Technical Storytelling",
+                "First-Hand Accounts",
+                "Oral Histories"
+            ]
+        },
+        {
+            "name": "sources_and_artifacts",
+            "topics": [
+                "Primary Sources",
+                "Technical Documentation",
+                "Vintage Manuals",
+                "Artifacts and Relics",
+                "Museum Exhibits",
+                "Restoration Projects",
+                "Obsolete Technology",
+                "Preservation Efforts",
+                "Digital Archaeology"
+            ]
+        },
+        {
+            "name": "typing_specific",
+            "topics": [
+                "Typing Practice Material",
+                "Bilingual English German",
+                "Umlaut Training German",
+                "Code as Literature"
+            ]
+        }
+    ]
+}
