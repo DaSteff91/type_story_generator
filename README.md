@@ -6,7 +6,85 @@ A structured content generation system that creates high-quality typing exercise
 
 ## Overview
 
-Training Text Generator is a backend-driven workflow that:
+```mermaid
+flowchart TD
+
+%% TRIGGERS
+A1[Cron Trigger n8n]
+A2[Manual Trigger Custom Prompt]
+
+%% TOPIC MANAGEMENT
+B1[Topic Pool JSON or DB]
+B2[Select Topic or Use Custom Input]
+
+%% PROMPT GENERATION
+C1[Meta Prompt Builder]
+C2[LLM Request]
+
+%% LLM OUTPUT
+D1[Structured JSON Response]
+
+%% VALIDATION
+E1[Schema Validation]
+E2[Format Enforcement Sentence per line]
+E3[Retry or Fallback]
+
+%% STORAGE
+F1[(Internal Storage)]
+
+%% OUTPUT
+G1[Markdown Generator]
+G2[Stats Calculation]
+
+%% DISTRIBUTION
+H1[GitHub Commit]
+H2[Update README]
+
+%% CONSUMPTION
+I1[Manual Import TIPP10]
+
+%% FUTURE API
+J1[Backend API]
+J2[Query Engine]
+
+%% FRONTEND
+K1[Web App]
+K2[Browse Download UI]
+
+%% FLOWS
+A1 --> B2
+A2 --> B2
+
+B1 --> B2
+B2 --> C1
+C1 --> C2
+C2 --> D1
+
+D1 --> E1
+E1 -->|valid| E2
+E1 -->|invalid| E3
+E3 --> C2
+
+E2 --> G2
+E2 --> F1
+
+F1 --> G1
+G1 --> H1
+G2 --> H2
+H1 --> H2
+
+H1 --> I1
+
+%% FUTURE
+F1 --> J1
+J1 --> J2
+J2 --> K1
+K1 --> K2
+
+K2 --> A2
+```
+
+The "Training Text Generator" is a backend-driven workflow that:
 
 - Generates fact-based, engaging texts using Large Language Models (LLMs)
 - Formats content specifically for typing practice (one sentence per line)
