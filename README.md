@@ -124,7 +124,7 @@ The system is built around a workflow automation engine using n8n and consists o
 
 This modular design allows the system to evolve into a backend service with an API and frontend interface.
 
----
+Check the official [n8n with PostgreSQL](https://github.com/n8n-io/n8n-hosting/tree/main/docker-compose/withPostgres) Repo for the current version to run this setup on your own.
 
 ## Technology Stack
 
