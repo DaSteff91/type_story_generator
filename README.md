@@ -2,6 +2,8 @@
 
 A structured content generation system that creates high-quality typing exercises from historical and technical topics. The project is designed to automate the creation of training texts for typing practice, with a current focus on compatibility with TIPP10.
 
+Already created stories can be found here: [Stories](https://github.com/DaSteff91/TIPP10_exercise_stories)
+
 ---
 
 ## Overview
